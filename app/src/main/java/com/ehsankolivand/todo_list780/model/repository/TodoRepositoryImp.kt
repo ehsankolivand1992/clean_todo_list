@@ -7,7 +7,7 @@ import com.ehsankolivand.todo_list780.model.entites.TodoModel
  * Todo Repository Created, and I've used it in my use cases.
  * */
 
-abstract class TodoRepositoryImp(private val database: TodoDatabase) : TodoRepository<TodoModel> {
+ class TodoRepositoryImp(private val database: TodoDatabase) : TodoRepository<TodoModel> {
 
     private val todoDao = database.getTodoDao()
 
