@@ -45,6 +45,8 @@ dependencies {
     implementation Libs.androidx.appcompat
     implementation Libs.androidx.material
     implementation Libs.androidx.constraintlayout
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.fragment:fragment:1.3.5'
     testImplementation Libs.unit_test.junit
     androidTestImplementation Libs.android_test.junit
     androidTestImplementation Libs.android_test.espresso
