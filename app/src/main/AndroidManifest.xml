@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".core.di.MyApp"
         android:theme="@style/Theme.Todolist780">
         <activity
             android:name=".MainActivity"
