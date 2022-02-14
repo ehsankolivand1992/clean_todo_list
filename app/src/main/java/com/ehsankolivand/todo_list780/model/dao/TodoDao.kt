@@ -5,6 +5,10 @@ import androidx.room.Query
 import com.ehsankolivand.todo_list780.model.entites.TodoModel
 import kotlinx.coroutines.flow.Flow
 
+/**
+ * in this dao class, I've declared additional method for CRUD Todo list
+ * */
+
 @Dao
 abstract class TodoDao : BaseDao<TodoModel> {
 
