@@ -50,6 +50,10 @@ dependencies {
     androidTestImplementation Libs.android_test.espresso
     androidTestImplementation Libs.android_test.arch
 
+
+    implementation Libs.liveData.ktx
+
+
     implementation Libs.navigation_component.navigation_fragment
     implementation Libs.navigation_component.navigation_ui_ktx
 

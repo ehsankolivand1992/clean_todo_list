@@ -29,7 +29,7 @@ libs.androidx = [
 
 ]
 libs.liveData = [
-        "liveData_ktx":"androidx.lifecycle:lifecycle-livedata-ktx:$versions.livedata"
+        "ktx":"androidx.lifecycle:lifecycle-livedata-ktx:$versions.livedata"
 ]
 
 libs.unit_test = [
