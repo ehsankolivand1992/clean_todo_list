@@ -60,6 +60,8 @@ dependencies {
     implementation Libs.navigation_component.navigation_ui_ktx
 
     implementation Libs.room.runtime
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0-alpha03'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
     kapt Libs.room.compiler
     implementation Libs.room.ktx
     androidTestImplementation Libs.room.testing
